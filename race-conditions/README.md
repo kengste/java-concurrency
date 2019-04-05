@@ -4,4 +4,4 @@ This is a simple illustration of race condition in Java multi-threading. In this
 
 The difference between the `Counter` and `SynchronizedCounter` classes is the use of keyword `synchronized` in the `SynchronizedCounter` class. This restricts resource access to only one thread at a time.
 
-Meanwhile, the `AtomicCounter` class uses the `AtomicLong` class, which ensures READ and WRITE actions are performed atomically, hence eliminating concerns over race conditions related bugs.
+Meanwhile, the `AtomicCounter` class uses the `AtomicLong` class, which ensures READ and WRITE actions are performed atomically, hence eliminating the possibility of race condition related bugs.

@@ -1,4 +1,4 @@
-###Thread Signalling
+### Thread Signalling
 
 For thread signalling to work, all threads must have a reference to a shared signal instance object i.e. `CustomSignal` / `WaitNotify`.
 
